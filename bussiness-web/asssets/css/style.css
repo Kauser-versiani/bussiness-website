@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100vh;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg-f.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    font-size: 35px;
+    color: white;
+    margin: 0 100px;
+    line-height: 80px;
+}
+
+.logo-2 img{
+    position: relative; 
+    right: 14%;
+    top: 48%;
+    width: 25px;
+    height: 25px;
+    float: right;
+    border-radius: 25px;
+}
+nav ul{
+    float: right;
+    margin-top: 3%;
+    margin-right: 15%;
+    list-style: none;
+}
+nav ul li{
+display: inline-block;
+line-height: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+    padding: 8px 10px;
+}
+nav ul li span i{
+    color: white;
+    position: relative;
+    left: -5px;
+}
+.active{
+    background-color: #024f89;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #024f89;
+    border-radius: 5px;
+}
+#checkbtn{
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+
+.bg-text{
+    margin-top: 10%;
+    text-transform: capitalize;
+}
+.bg-text h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: Raleway,sans-serif;
+    font-weight: 900;
+   
+}
+.bg-text p{
+    margin-top: 1%;
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Raleway,sans-serif;
+     line-height: 25px;
+}
+
+.vector{
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+
+/*ABOUT-US*/
+.about-section{
+    width: 98vw;
+    margin-top: 5%;
+}
+.about{
+    display: flex;
+    width: 100%;
+}
+.about-text{
+    margin-left: 5%;
+    width: 50%;
+}
+.about-text h3{
+    color: #000;
+    font-size: 35px;
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.about-text p{
+    margin-top: 5%;
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.about-img{
+    width: 50%; 
+}
+
+.about-img img{
+    position: relative;
+    left: -20%;
+    top: -10%;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 15px ;
+    width: 500px;
+}
+
+
+
+.rectangle-left{
+    position: relative;
+    top: 200px;
+    left: 42%;
+    width: 150px;
+    height:150px;
+    background: var(--linear, linear-gradient(135deg, #0EA1EF 100%, #064BCA 10%));
+    border-radius: 10px;
+}
+.rectangle-right{
+    position: relative;
+    top: -30px;
+    left: 10px;
+    width: 150px;
+    height:150px;
+    background: var(--linear, linear-gradient(135deg, #0EA1EF 100%, #064BCA 10%));
+    border-radius: 10px;
+}
+.expertise{
+    margin-right: 100px;
+    margin-top: 3%;
+}
+
+.expertise h3{
+    margin-top: 5%;
+    color: #000;
+    text-align: center;
+    font-size: 60px;
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 15%;
+}
+.expertise p{
+    margin-top: 2%;
+    font-family: Raleway,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    width: 650px;
+    margin-left: 10%;
+}
+.imag img{
+    width: 250px;
+    margin-left: 20%;
+}
+/*THIRD-SECTION*/
+.section-three{
+    display: flex;
+}
+
+.three-parts{
+    width: 98.7vw;
+    height: 70vh;
+    background-image: url(../images/expertise-bg.png);
+    background-position:center ;
+    background-size: cover;
+
+}
+.three-squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 25%;
+}
+
+
+.square,
+.square-3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    border: 20px solid #fff;
+    border-radius: 60px;
+}
+.square .text{
+padding-top: 15px;
+padding-left: 15px;
+}
+.square::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    transform: rotate(-45deg);
+    background-image: url('../images/innovation.webp');
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.square-3::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    transform: rotate(-45deg);
+    background-image: url('..//images/risk-managements.jpeg');
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.square:hover,
+.square-3:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.square:hover .text {
+    display: block;
+}
+
+.text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.square-2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    border: 20px solid #fff;
+    border-radius: 60px;
+}
+
+.square-2::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 300%;
+    height: 300%;
+    transform: rotate(-45deg);
+    background-image: url('../images/data-analytics.jpeg');
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.square-2:hover {
+    width: 400px;
+    height: 400px;
+}
+
+.square-2 h2{
+padding-left: 20px;
+}
+.square-2 div{
+padding-right: 20px;
+}
+
+.text {
+    display: block;
+    margin-top: -6%;
+    margin-left: -35%;
+    transform: rotate(-45deg);
+
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
