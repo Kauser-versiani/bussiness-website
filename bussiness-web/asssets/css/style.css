@@ -97,12 +97,6 @@ nav ul li a:hover{
      line-height: 25px;
 }
 
-.vector{
-    display: flex;
-    justify-content: center;
-    margin-top: -5%;
-}
-
 /*ABOUT-US*/
 .about-section{
     width: 98vw;
@@ -142,9 +136,6 @@ nav ul li a:hover{
     border-radius: 15px ;
     width: 500px;
 }
-
-
-
 .rectangle-left{
     position: relative;
     top: 200px;
@@ -163,11 +154,11 @@ nav ul li a:hover{
     background: var(--linear, linear-gradient(135deg, #0EA1EF 100%, #064BCA 10%));
     border-radius: 10px;
 }
+/*EXPERTISE*/
 .expertise{
     margin-right: 100px;
     margin-top: 3%;
 }
-
 .expertise h3{
     margin-top: 5%;
     color: #000;
@@ -192,18 +183,16 @@ nav ul li a:hover{
     width: 250px;
     margin-left: 20%;
 }
-/*THIRD-SECTION*/
+
 .section-three{
     display: flex;
 }
-
 .three-parts{
     width: 98.7vw;
     height: 70vh;
     background-image: url(../images/expertise-bg.png);
     background-position:center ;
     background-size: cover;
-
 }
 .three-squares {
     display: flex;
@@ -213,8 +202,6 @@ nav ul li a:hover{
     margin-top: 7%;
     margin-left: 25%;
 }
-
-
 .square,
 .square-3 {
     position: relative;
@@ -242,7 +229,6 @@ padding-left: 15px;
     background-size: cover;
     filter: brightness(70%);
 }
-
 .square-3::before {
     content: "";
     position: absolute;
@@ -255,7 +241,6 @@ padding-left: 15px;
     background-size: cover;
     filter: brightness(70%);
 }
-
 .square:hover,
 .square-3:hover {
     width: 300px;
@@ -265,7 +250,6 @@ padding-left: 15px;
 .square:hover .text {
     display: block;
 }
-
 .text {
     display: none;
     position: absolute;
@@ -276,7 +260,6 @@ padding-left: 15px;
     font-size: 18px;
     text-align: center;
 }
-
 .square-2 {
     position: relative;
     width: 300px;
@@ -287,7 +270,6 @@ padding-left: 15px;
     border: 20px solid #fff;
     border-radius: 60px;
 }
-
 .square-2::before {
     content: "";
     position: absolute;
@@ -300,19 +282,16 @@ padding-left: 15px;
     background-size: cover;
     filter: brightness(70%);
 }
-
 .square-2:hover {
     width: 400px;
     height: 400px;
 }
-
 .square-2 h2{
 padding-left: 20px;
 }
 .square-2 div{
 padding-right: 20px;
 }
-
 .text {
     display: block;
     margin-top: -6%;
